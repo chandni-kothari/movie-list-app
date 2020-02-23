@@ -1,0 +1,14 @@
+.app__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  color: #FFFFFF;
+}
+
+.app__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+}

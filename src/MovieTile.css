@@ -1,0 +1,33 @@
+.movieTile {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.movieTile:last-of-type{
+    margin-bottom: 0;
+}
+
+.movieTile__title {
+    width: 270px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    color: #1E1E1E;
+}
+
+.movieTile__infos{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.movieTile__releaseCountry,
+.movieTile__releaseYear {
+    font-size: 18px;
+    color: #7D7D7D;
+}
